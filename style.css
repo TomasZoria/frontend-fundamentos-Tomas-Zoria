@@ -1,0 +1,28 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div{
+    border:2px dotted lightgray;
+}
+hr{
+    
+}
+[href]{
+    font-style: italic;
+    color:darkblue
+}
+h2{
+    color:green
+}
+h3{
+    font-size: 22px;
+    color:seagreen  
+}
+h4{
+    font-size: 16px;
+    color:lightseagreen
+}
+#Educacion p{
+    font-style: italic;
+}
+

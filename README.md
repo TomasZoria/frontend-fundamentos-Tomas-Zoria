@@ -6,4 +6,4 @@ Repositorio de practicas semanales del curso.
 
 - [x] Crear index.html con estructura base
 - [x] Crear curriculum.html con estructura de CV
-- [] Aplicar estilos al curriculum
+- [x] Aplicar estilos al curriculum
