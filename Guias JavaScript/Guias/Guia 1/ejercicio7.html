@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+</head>
+<body>
+    <script>
+        let mililitros,capacidad,desperdicio
+
+        mililitros = Number(prompt("Ingrese la cantidad de mililitros"))
+        capacidad = Number(prompt("Ingrese la capacidad de la taza"))
+
+        let tazasCompletas = Math.floor(mililitros / capacidad)
+        desperdicio = mililitros % capacidad
+
+        document.write("Se pueden servir #" + tazasCompletas + " tazas <br>")
+        document.write("Hubo un desperdicio de " + desperdicio + " ml <br>")
+
+    </script>
+    <footer>
+        <a href="/Guias JavaScript/Guias/guia1.html">Volver</a>
+    </footer>
+</body>
+</html>
