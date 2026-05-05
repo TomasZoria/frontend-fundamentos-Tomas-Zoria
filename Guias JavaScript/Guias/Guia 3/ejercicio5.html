@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <script>    
+        let rand = Math.random() * 10
+        rand = Math.floor(rand)
+        document.write(rand + "<br>")
+
+
+            let num = prompt("Adivina el número del 1 al 10!")
+
+            while (num != rand){
+                document.write("Numero incorrecto!. Intentar nuevamente <br>")
+                num = prompt("Adivina el número del 1 al 10!")
+            }
+            document.write("Acertaste! El numero era: " + rand + "<br>")
+            document.write("Felicitaciones!")
+    </script>
+    <footer>
+        <a href="/Guias JavaScript/Guias/guia3.html">Volver</a>
+    </footer>
+</body>
+</html>

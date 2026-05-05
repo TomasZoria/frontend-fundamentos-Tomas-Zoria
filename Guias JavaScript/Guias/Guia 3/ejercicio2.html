@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <script>
+        let suma = 0
+        let random
+
+        for (let x = 0; x < 10; x++){
+            random = Math.random() * 50
+            random = Math.floor(random)
+            if(x==9){
+            document.write(random + "<br>")
+            }
+            else {
+                document.write(random + " + ")
+            }
+            suma += random
+        }
+        document.write("La suma de los números es: " + suma)
+    </script>
+    <footer>
+        <a href="/Guias JavaScript/Guias/guia3.html">Volver</a>
+    </footer>
+</body>
+</html>

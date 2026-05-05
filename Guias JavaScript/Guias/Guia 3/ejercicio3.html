@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <script>
+        let max,min,rand
+
+        for(let x = 0; x<10;x++){
+            rand = Math.random() * 50
+            rand = Math.floor(rand)
+
+            ///document.write(rand + "..")
+
+            if (x==0){
+                max = rand
+                min = rand
+            }
+            if (rand > max){
+                max = rand
+            }
+            if (rand < min)
+            min = rand
+        }
+        document.write("El numero mas bajo de la lista es: " + min + "<br>")
+        document.write("El numero mas alto de la lista es: " + max + "<br>")
+    </script>
+    <footer>
+        <a href="/Guias JavaScript/Guias/guia3.html">Volver</a>
+    </footer>
+</body>
+</html>

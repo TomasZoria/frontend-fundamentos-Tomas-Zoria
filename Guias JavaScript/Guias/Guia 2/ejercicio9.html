@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <script>
+        const dia = prompt("Ingrese el día de la semana(Lun-Mar-Mie-Jue-Vie-Sab-Dom): ");
+        const hora = parseInt(prompt("Ingrese la hora: "));
+
+        if (dia === "Sab" || dia === "Dom") {
+            if (hora >= 10 && hora <= 14) {
+                document.write("El local está abierto");
+            } else {
+                document.write("El local está cerrado");
+            }
+        } else {
+            if (hora >= 9 && hora <= 18) {
+                document.write("El local está abierto");
+            } else {
+                document.write("El local está cerrado");
+            }
+        }
+        
+    </script>
+    <footer>
+        <a href="/Guias JavaScript/Guias/guia2.html">Volver</a>
+    </footer>
+</body>
+</html>
